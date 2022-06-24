@@ -1,0 +1,63 @@
+// ...color....
+$pryColor: #2F4858;
+$secColor1: #00DF75;
+$bg-color: rgba(47, 72, 88, 0.15);
+$secColor2: rgba(47, 72, 88, 0.6);
+$terColor: #2F4858;
+
+// fonts
+
+@mixin h1fonts {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48.8px;
+
+}
+
+@mixin h2fonts {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39.06px;
+
+}
+
+@mixin h3fonts {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31.25px;
+
+}
+
+@mixin h4fonts {
+    font-family: Verdana, ;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+
+}
+
+@mixin h5fonts {
+    font-family: 'Montserrat', sans-serif;
+    font-style: none;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+@mixin h6fonts {
+    font-family: 'Montserrat', sans-serif;
+    font-style: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+@mixin pfonts {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+}

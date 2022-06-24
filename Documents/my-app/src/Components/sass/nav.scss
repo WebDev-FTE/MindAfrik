@@ -1,0 +1,22 @@
+@use "global.scss" as *;
+
+// background styling
+
+
+.navling {
+    background-color: $secColor1;
+    @include pfonts;
+    color: white;
+
+    justify-content: space-evenly;
+}
+
+#navdrop {
+    background-color: $bg-color;
+    @include h2fonts;
+}
+
+.dpdown {
+    font-family: sans-serif;
+    font-size: 300px;
+}
